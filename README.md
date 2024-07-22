@@ -35,6 +35,16 @@
         private String category;
         private boolean isAvailable;
 
+    public Book(String startId, String starttitle, String startauthor, String startcategory
+		,boolean startisAvailable) {
+        bookId = startId;
+        title = starttitle;
+        author = startauthor;
+        category = startcategory;
+        isAvailable	= startisAvailable;
+              
+    }
+
         // 기본 생성자
         // code를 작성하세요
         
